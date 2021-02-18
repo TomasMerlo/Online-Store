@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(247, 235, 232);
+  
+  background-color: rgb(255, 255, 255);
   margin: 40px 80px;
   border: rgb(rgb(255, 0, 0), green, blue);
   border-radius: 10px;
@@ -21,10 +22,9 @@ img{
 .secciones{
   color: rgb(229, 75, 75);
   font-size: xx-large;
-  flex-direction: unset;
 }
 .Titulo{
-color: rgb(229, 75, 75);
+color: rgb(249, 194, 46);
 text-align: center;
 font-size: 80px;
 }
