@@ -1,9 +1,30 @@
-body {
+header {
+  font-family: Inter;
+  color: rgb(55, 116, 156);
+}
 
-    background-color: rgb(255, 255, 255);
-    margin: 40px 80px;
-    border: rgb(rgb(255, 0, 0), green, blue);
-    border-radius: 10px;
-    padding: 1px;
-    box-shadow:darkblue 100px; 
+img {
+  display: block;
+  margin: auto;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 40px 80px;
+  border: rgb(rgb(255, 0, 0), green, blue);
+  border-radius: 10px;
+  padding: 1px;
+  box-shadow: darkblue 100px;
+}
+.textiles{
+    font-family: "Inter";
+    color: rgb(134, 146, 185);
+
+}
+.links {
+    font-family: "Inter";
+    color: rgb(255, 89, 205);
+}
+footer {
+  font-family: "Inter";
+  color: rgb(197, 181, 169);
 }

@@ -1,3 +1,7 @@
+header {
+font-family: Inter;
+    color: rgb(55, 116, 156);
+}
 body {
 
     background-color: rgb(255, 255, 255);
@@ -12,6 +16,14 @@ body {
         margin:auto;
         }
 .textiles{
-    color:rgb(255, 0, 0);
+    color:rgb(134, 146, 185);
     font-family: "Inter";
+}
+.links {
+    font-family: "Inter";
+    color: rgb(255, 89, 205);
+}
+footer{
+    font-family: "Inter";
+    color: rgb(197, 181, 169);
 }

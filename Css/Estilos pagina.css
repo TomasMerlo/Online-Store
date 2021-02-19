@@ -14,7 +14,7 @@ img {
 
 
 .secciones {
-  color: rgb(229, 75, 75);
+  color: rgb(55, 116, 156);
   font-size: x-large;
 }
 
@@ -24,9 +24,9 @@ img {
   font-size: 60px;
 }
 
-.Realizado {
-  color: rgb(236, 115, 87);
-  font-family: "Inter", sans-serif;
+footer{
+  font-family: "Inter";
+  color: rgb(197, 181, 169);
 }
 
 /* Toda la pagina con el mismo estilo */
@@ -36,9 +36,7 @@ img {
 
 
 
-/* Para Organizar Listas */
+/* Para Organizar Listas 
   justify-content:flex-start
   flex-direction
-  align-items:flex-start
-
-/* IDENTIFICAR CLASE  */
+  align-items:flex-start*/
