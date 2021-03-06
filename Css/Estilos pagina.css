@@ -12,21 +12,24 @@ img {
   margin: auto;
 }
 
-
+.categorias{
+  cursor: pointer;
+  display: none;
+}
 .secciones {
   color: rgb(55, 116, 156);
   font-size: x-large;
 }
 
 .Titulo {
-  color: rgb(249, 194, 46);
+  color: rgb(233, 99, 162);
   text-align: center;
   font-size: 60px;
 }
 
 footer{
   font-family: "Inter";
-  color: rgb(197, 181, 169);
+  color: rgb(255, 111, 0);
 }
 
 /* Toda la pagina con el mismo estilo */

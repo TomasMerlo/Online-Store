@@ -1,31 +1,52 @@
 header {
-    font-family: Inter;
-    color: rgb(55, 116, 156);
-  }
-  
-  img {
-    display: block;
-    margin: auto;
-  }
-  body {
-    background-color: rgb(174, 164, 230);
-    margin: 40px 80px;
-    border: rgb(rgb(255, 0, 0), green, blue);
-    border-radius: 10px;
-    padding: 1px;
-    box-shadow: darkblue 100px;
-  }
-  .textiles{
-      font-family: "Inter";
-      color: rgb(134, 146, 185);
-  
-  }
-  .links {
-      font-family: "Inter";
-      color: rgb(255, 89, 205);
-  }
-  footer {
-    font-family: "Inter";
-    color: rgb(197, 181, 169);
-  }
-  
+  font-family: Inter;
+  color: rgb(5, 92, 149);
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+body {
+  background-color: rgb(174, 164, 230);
+  margin: 40px 80px;
+  border: rgb(rgb(255, 0, 0), green, blue);
+  border-radius: 10px;
+  padding: 1px;
+  box-shadow: darkblue 100px;
+}
+
+.tamanoimagen {
+  width: 1000px;
+  height: 700px;
+}
+/*.fotoshombre {
+  justify-content: start;
+  align-items:flex-end;
+  display: flex;
+} */
+
+.dalee{
+  cursor: pointer;
+  display: none;
+}
+.accesorios{
+  cursor:pointer;
+  display: none;
+}
+.shoes{
+  cursor: pointer;
+  display: none;
+}
+.textiles {
+  font-family: "Inter";
+  color: rgb(53, 4, 93);
+}
+.links {
+  font-family: "Inter";
+  color: rgb(255, 89, 205);
+}
+footer {
+  font-family: "Inter";
+  color: rgb(255, 116, 10);
+}

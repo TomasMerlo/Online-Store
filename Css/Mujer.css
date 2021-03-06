@@ -15,6 +15,18 @@ body {
   padding: 1px;
   box-shadow: darkblue 100px;
 }
+.dalee{
+  cursor: pointer;
+  display: none;
+}
+.accesorios{
+  cursor:pointer;
+  display: none;
+}
+.shoes{
+  cursor: pointer;
+  display: none;
+}
 .textiles{
     font-family: "Inter";
     color: rgb(134, 146, 185);
