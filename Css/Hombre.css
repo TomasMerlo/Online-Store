@@ -8,7 +8,7 @@ img {
   margin: auto;
 }
 body {
-  background-color: rgb(174, 164, 230);
+  background-color: rgb(83, 98, 236);
   margin: 40px 80px;
   border: rgb(rgb(255, 0, 0), green, blue);
   border-radius: 10px;
@@ -27,6 +27,18 @@ body {
 } */
 
 .dalee{
+  cursor: pointer;
+  display: none;
+}
+.mostrarremes{
+  cursor: pointer;
+  display: none;
+}
+.pantmostrar{
+  cursor: pointer;
+  display: none;
+}
+.campmostrar{
   cursor: pointer;
   display: none;
 }
@@ -49,4 +61,28 @@ body {
 footer {
   font-family: "Inter";
   color: rgb(255, 116, 10);
+}
+.safari { width: 30%;
+  border-radius: 12px;
+
+}
+
+#container {
+  background-color: rgb(79, 78, 148);
+  font-family: "Inter",sans-serif;
+max-width: 1200px;
+margin: 0 auto;
+margin-top: 2vh;
+}
+.card{
+  border: 1px solid #bacdd8;
+  padding: 8px;
+
+  border-radius: 12px;
+}
+#remel{
+  cursor: pointer;
+}
+.card__details {
+  padding: 16px 8px 8px 8px;
 }

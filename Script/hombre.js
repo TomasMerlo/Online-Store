@@ -4,6 +4,24 @@ botonropas.addEventListener("click", function () {
   sku3.classList.toggle("dalee");
 })
 
+let botonremeras = document.querySelector("#boton-remeras");
+botonremeras.addEventListener("click", function () {
+  let sku4 = document.querySelector("#remesmostrar");
+  sku4.classList.toggle("mostrarremes");
+})
+
+let botonpant = document.querySelector("#boton-pant");
+botonpant.addEventListener("click", function () {
+  let sku5 = document.querySelector("#mostrarpant");
+  sku5.classList.toggle("pantmostrar");
+})
+
+let botoncamperas = document.querySelector("#boton-camp");
+botoncamperas.addEventListener("click", function () {
+  let sku6 = document.querySelector("#mostrarcamperas");
+  sku6.classList.toggle("campmostrar");
+})
+
 let botonzapas = document.querySelector("#boton-calzado");
 botonzapas.addEventListener("click", function () {
   let sku3 = document.querySelector("#cattextiles");
