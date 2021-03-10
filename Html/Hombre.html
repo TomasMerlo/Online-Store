@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <link rel="stylesheet" href="/Css/Hombre.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link
@@ -20,10 +23,11 @@
     />
   </div>
   <header><h1>Hombre</h1></header>
-    <br><button id="boton-ropa"><h3 class="textiles">Ropa</h3></button>
+    <br><button class="btn btn-primary" id="boton-ropa"><h5 class="textiles">Ropa</h5></button>
+    
 <div>
   <ul id="catropa" class="dalee">
-    <br><button id="boton-remeras"><li><h3 id="remel">Remeras</h3></button>
+    <br><button class="btn btn-info"  id="boton-remeras"><h6 id="remel">Remeras</h6></button>
 
       <ul id="remesmostrar" class="mostrarremes"> 
     <div id="container">
@@ -63,7 +67,7 @@
 </ul>
 
     
-  <br><br><button id="boton-pant"><li><h3>Pantalones</h3></li></button>
+  <br><br><button class="btn btn-info" id="boton-pant"><h6>Pantalones</h6></li></button>
 <ul class="pantmostrar" id="mostrarpant">
   <div id="container">
     <div class="card">
@@ -103,7 +107,7 @@
 </ul>
 
 
-    <br><br><button id="boton-camp"><li><h3>Camperas</h3></li></button>
+    <br><br><button class="btn btn-info" id="boton-camp"><h6>Camperas</h6></li></button>
 <ul class="campmostrar" id="mostrarcamperas">
     <div id="container">
       <div class="card">
@@ -147,10 +151,11 @@
 </div>
 
 
-  <br><button id="boton-calzado"><h3 class="textiles">Calzado</h3></button>
+  <br><button class="btn btn-primary" id="boton-calzado"><h5 class="textiles">Calzado</h5></button>
   <div>
     <ul id="cattextiles" class="shoes">
-      <li><h3>Zapatillas</h3></li>
+      <br><button id="boton-tillas" class="btn btn-info"><h6>Zapatillas</h6></button>
+      <ul class="zapmostrar" id="mostrarzapas">
       <div id="container">
         <div class="card">
           <br><img class="safari" src="https://http2.mlstatic.com/D_NQ_NP_2X_949987-MLA44280881277_122020-F.webp" alt="Remera Safari">
@@ -186,7 +191,10 @@
           </div>
         </div>
       </div>
-      <li><h3>Botas</h3></li>
+    </ul>
+    
+      <br><br><button id="botonbotas" class="btn btn-info"><h6>Botas</h6></button>
+      <ul class="botasmostrar" id="mostrarbotas">
       <div id="container">
         <div class="card">
           <br><img class="safari" src="https://http2.mlstatic.com/D_NQ_NP_2X_949987-MLA44280881277_122020-F.webp" alt="Remera Safari">
@@ -222,8 +230,10 @@
           </div>
         </div>
       </div>
-      <li><h3>Sandalias</h3></li>
-
+    </ul>
+    
+      <br><br><button id="botonsandalias" class="btn btn-info"><h6>Sandalias</h6></button>
+      <ul class="mostrarsand" id="sandmostrar">
       <div id="container">
         <div class="card">
           <br><img class="safari" src="https://http2.mlstatic.com/D_NQ_NP_2X_949987-MLA44280881277_122020-F.webp" alt="Remera Safari">
@@ -261,11 +271,12 @@
       </div>
     </ul>
   </div>
+</ul>
 
-  <br><button id="boton-accesorios"><h3 class="textiles">Accesorios</h3></button>
+  <br><button class="btn btn-primary" id="boton-accesorios"><h5 class="textiles">Accesorios</h5></button>
   <div>
     <ul id="cataccesorios" class="accesorios">
-      <li><h3>Sombreros</h3></li>
+      <li><h6>Sombreros</h6></li>
 
       <div id="container">
         <div class="card">
@@ -302,7 +313,7 @@
           </div>
         </div>
       </div>
-      <li><h3>Cinturones</h3></li>
+      <li><h6>Cinturones</h6></li>
 
       <div id="container">
         <div class="card">
@@ -339,7 +350,7 @@
           </div>
         </div>
       </div>
-      <li><h3>Medias</h3></li>
+      <li><h6>Medias</h6></li>
 
       <div id="container">
         <div class="card">
@@ -394,5 +405,7 @@
     >
   </footer>
   <script src="/Script/hombre.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>

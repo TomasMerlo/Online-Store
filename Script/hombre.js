@@ -1,3 +1,4 @@
+
 let botonropas = document.querySelector("#boton-ropa");
 botonropas.addEventListener("click", function () {
   let sku3 = document.querySelector("#catropa");
@@ -28,8 +29,27 @@ botonzapas.addEventListener("click", function () {
   sku3.classList.toggle("shoes");
 })
 
+let botontillas = document.querySelector("#boton-tillas");
+botontillas.addEventListener("click", function () {
+  let sku10 = document.querySelector("#mostrarzapas");
+  sku10.classList.toggle("zapmostrar");
+})
+let botonsanda = document.querySelector("#botonsandalias");
+botonsanda.addEventListener("click", function () {
+  let sku11 = document.querySelector("#sandmostrar");
+  sku11.classList.toggle("mostrarsand");
+})
+
+let botonbotass = document.querySelector("#botonbotas");
+botonbotass.addEventListener("click", function () {
+  let sku12 = document.querySelector("#mostrarbotas");
+  sku12.classList.toggle("botasmostrar");
+})
+
+
+
 let botonaccesorios = document.querySelector("#boton-accesorios");
 botonaccesorios.addEventListener("click", function () {
-  let sku3 = document.querySelector("#cataccesorios");
+ let sku3 = document.querySelector("#cataccesorios");
   sku3.classList.toggle("accesorios");
 })

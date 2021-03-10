@@ -8,7 +8,7 @@ img {
   margin: auto;
 }
 body {
-  background-color: rgb(83, 98, 236);
+  background-color: rgb(5, 48, 92);
   margin: 40px 80px;
   border: rgb(rgb(255, 0, 0), green, blue);
   border-radius: 10px;
@@ -39,6 +39,18 @@ body {
   display: none;
 }
 .campmostrar{
+  cursor: pointer;
+  display: none;
+}
+.zapmostrar{
+  cursor: pointer;
+  display: none;
+}
+.botasmostrar{
+  cursor: pointer;
+  display: none;
+}
+.mostrarsand{
   cursor: pointer;
   display: none;
 }
