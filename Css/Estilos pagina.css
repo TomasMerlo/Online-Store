@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(231, 188, 188);
+  background-image: url(/FOTOS/repeated-square-dark.png);
   margin: 40px 80px;
   border: rgb(rgb(255, 0, 0), green, blue);
   border-radius: 10px;
@@ -22,6 +22,7 @@ img {
 }
 
 .Titulo {
+  
   color: rgb(233, 99, 162);
   text-align: center;
   font-size: 60px;
@@ -43,3 +44,5 @@ footer{
   justify-content:flex-start
   flex-direction
   align-items:flex-start*/
+
+  

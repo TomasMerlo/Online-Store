@@ -1,6 +1,6 @@
 header {
   font-family: Inter;
-  color: rgb(5, 92, 149);
+  color: rgb(92, 73, 200);
 }
 
 img {
@@ -8,7 +8,8 @@ img {
   margin: auto;
 }
 body {
-  background-color: rgb(5, 48, 92);
+  background-image:url(/FOTOS/repeated-square-dark.png);
+  background-attachment: fixed;
   margin: 40px 80px;
   border: rgb(rgb(255, 0, 0), green, blue);
   border-radius: 10px;
@@ -16,10 +17,14 @@ body {
   box-shadow: darkblue 100px;
 }
 
-.tamanoimagen {
+
+/*  .tamanoimagen {
   width: 1000px;
   height: 700px;
 }
+*/
+
+
 /*.fotoshombre {
   justify-content: start;
   align-items:flex-end;
@@ -47,10 +52,6 @@ body {
   display: none;
 }
 .botasmostrar{
-  cursor: pointer;
-  display: none;
-}
-.mostrarsand{
   cursor: pointer;
   display: none;
 }
@@ -97,4 +98,61 @@ margin-top: 2vh;
 }
 .card__details {
   padding: 16px 8px 8px 8px;
+}
+
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.0s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }

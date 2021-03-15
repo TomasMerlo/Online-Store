@@ -68,3 +68,4 @@ console.log("contenido del array: " , marceclub )
 }
 for (let index = 0 ; index <array.length; index++)
 }
+
