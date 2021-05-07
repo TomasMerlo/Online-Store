@@ -1,1 +1,1 @@
-# Online Store Example
+# Online Store Example.
